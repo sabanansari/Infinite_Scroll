@@ -10,7 +10,6 @@ let initialLoad = true;
 
 // Unsplash API
 let count=3;
-const apiKey='HtfCMZmwb-UKSk6v99_gSMT8hJieEyb2hPrGtT0WKiA';
 let apiUrl =  `https://api.unsplash.com/photos/random?client_id=${apiKey}&count=${count}`;
 
 // Check if all images were loaded
